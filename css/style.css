@@ -32,6 +32,7 @@
 
 .navbar {
   margin-top: 20px;
+  margin-bottom: 10px;
   float: left;
 }
 
@@ -113,8 +114,11 @@ footer img {
 
     /* CUSTOMIZE THE CAROUSEL
     -------------------------------------------------- */
-
     /* Carousel base class */
+#myCarousel {
+  margin-top: 10px;
+}
+
     .carousel {
       margin-bottom: 60px;
     }
@@ -162,7 +166,6 @@ footer img {
     .carousel-caption .btn {
       margin-top: 10px;
     }
-
 
 
     /* MARKETING CONTENT
@@ -228,11 +231,11 @@ footer img {
       }
 
       .carousel .item {
-        height: 500px;
+        height: 400px;
       }
       .carousel img {
         width: auto;
-        height: 500px;
+        height: 400px;
       }
 
       .featurette {
