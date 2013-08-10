@@ -71,6 +71,10 @@ footer img {
   float: left;
 }
 
+.footermenu .item ul {
+  color: gray;
+}
+
 .footermenu .right {
   margin-top: 30px;
 }
